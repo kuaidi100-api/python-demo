@@ -1,4 +1,5 @@
 # coding = utf-8
+# 授权信息可通过链接查看：https://api.kuaidi100.com/manager/page/myinfo/enterprise
 
 import requests
 
