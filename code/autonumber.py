@@ -1,16 +1,22 @@
 # coding = utf-8
-# 授权信息可通过链接查看：https://api.kuaidi100.com/manager/page/myinfo/enterprise
 
 import requests
 
-key = ''  # 客户授权key
 
-postdata = {
-    'key': key,  # 客户授权key
-    'num': '3950055201640'  # 快递单号
-}
+class KuaiDi100:
+    def __init__(self):
+        self.key = ''  # TODO 客户授权key
+        self.url = 'https://www.kuaidi100.com/autonumber/auto'  # 请求地址
 
-url = 'http://www.kuaidi100.com/autonumber/auto'  # 实时查询请求地址
+    def auto_number(self, num):
+        """
+        智能单号识别
+        :param num: 快递单号
+        :return: requests.Response.text
+        """
+        req_params = {'key': self.key, 'num': num}
+        return requests.post(self.url, req_params).text  # 发送请求
 
-result = requests.post(url, postdata)  # 发送请求
-print(result.text)  # 返回数据
+
+result = KuaiDi100().auto_number('YT9693083639795')
+print(result)
