@@ -27,7 +27,6 @@ def main():
         "remark": "测试下单",
         "volume": "",
         "salt": "",
-        "callbackUrl": "http://www.baidu.com",
         "orderType": 0,
         "expectPickupTime": "",
         "expectFinishTime": "",
