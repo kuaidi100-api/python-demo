@@ -26,7 +26,6 @@ def main():
         "weight": "1",
         "remark": "测试下单",
         "volume": "",
-        "salt": "",
         "orderType": 0,
         "expectPickupTime": "",
         "expectFinishTime": "",
