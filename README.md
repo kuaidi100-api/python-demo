@@ -10,3 +10,4 @@
 ##### 5、deliverytime.py 快递预估时效查询
 ##### 6、backorder.py 运单附件查询
 ##### 7、interceptOrder.py 订单拦截
+##### 8、addressResolution.py 地址解析
