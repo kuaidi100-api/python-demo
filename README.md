@@ -11,3 +11,4 @@
 ##### 6、backorder.py 运单附件查询
 ##### 7、interceptOrder.py 订单拦截
 ##### 8、addressResolution.py 地址解析
+##### 9、intAddressResolution.py 国际地址解析
