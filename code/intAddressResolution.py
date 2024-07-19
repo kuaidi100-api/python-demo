@@ -11,10 +11,12 @@ def main():
     key = ""            #客户授权key
     secret = ""         #秘钥
     param = {
-        #国家（英文），可参考国家列表附录
-        "country": "United States",
+        #国家或地区二字码
+        "code": "US",
         #地址
-        "address": "84 Alford Rd, Great Barrington, MA 01230, USA"
+        "address": "84 Alford Rd, Great Barrington, MA 01230, USA",
+        #语言码
+        "language": "zh"
     }
 
     t = str(int(round(time.time() * 1000)))
