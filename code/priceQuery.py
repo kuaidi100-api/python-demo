@@ -12,8 +12,8 @@ def main():
     secret = ""         #秘钥
     param = {
         "sendAddr": "深圳南山区金蝶软件园",
-        "receiveAddr": "北京海淀区",
-        "companyName": "jd",
+        "recAddr": "北京海淀区",
+        "kuaidicom": "jd",
         "weight": "12"
     }
     t = str(int(round(time.time() * 1000)))
