@@ -26,7 +26,7 @@ def do_request(url, key, secret, method, t, param):
 if __name__ == '__main__':
     key = ''  # TODO 客户授权key
     secret = ''  # TODO 秘钥
-    url = 'https://poll.kuaidi100.com/eorderapi.do'  # 请求地址
+    url = 'https://api.kuaidi100.com/label/order'  # 请求地址
     method = 'cancel'
     param = {
         "partnerId": "",
