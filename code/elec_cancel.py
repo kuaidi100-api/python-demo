@@ -38,6 +38,8 @@ if __name__ == '__main__':
         "kuaidicom": "******",
         "kuaidinum": "******",
         "orderId": "",
+        "checkMan": "",
+        "expType": "",
         "reason": ""
     }
 
