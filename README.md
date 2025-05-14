@@ -12,3 +12,6 @@
 ##### 7、interceptOrder.py 订单拦截
 ##### 8、addressResolution.py 地址解析
 ##### 9、intAddressResolution.py 国际地址解析
+
+## Tips
+如需获取账号信息（如 key、customer、secret），或免费试用100单，请访问[API开放平台](https://api.kuaidi100.com/register/diff/)进行注册
